@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to run an application that isn't correctly copied into the image.  The initial Dockerfile incorrectly assumes `app.py` exists in the root directory, leading to a build failure. The solution demonstrates how to correctly copy the file and handle potential errors.
